@@ -23,7 +23,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions"
+	"github.com/BarDweller/pipeline-builder/octo/actions"
 )
 
 type Descriptor struct {

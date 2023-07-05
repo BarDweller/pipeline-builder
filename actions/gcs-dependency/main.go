@@ -25,7 +25,7 @@ import (
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 
-	"github.com/paketo-buildpacks/pipeline-builder/actions"
+	"github.com/BarDweller/pipeline-builder/actions"
 )
 
 func main() {

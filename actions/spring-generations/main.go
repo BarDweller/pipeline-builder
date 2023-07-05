@@ -25,7 +25,7 @@ import (
 
 	"github.com/pelletier/go-toml"
 
-	"github.com/paketo-buildpacks/pipeline-builder/actions"
+	"github.com/BarDweller/pipeline-builder/actions"
 )
 
 func main() {

@@ -27,9 +27,9 @@ import (
 
 	"fmt"
 
+	"github.com/BarDweller/pipeline-builder/actions"
+	"github.com/BarDweller/pipeline-builder/drafts"
 	"github.com/google/go-github/v43/github"
-	"github.com/paketo-buildpacks/pipeline-builder/actions"
-	"github.com/paketo-buildpacks/pipeline-builder/drafts"
 	"golang.org/x/oauth2"
 )
 
@@ -46,7 +46,7 @@ func main() {
 	gh := github.NewClient(c)
 
 	drafter := drafts.Drafter{
-		Loader: drafts.GithubBuildpackLoader{
+		Loader: drafts.GithubBuildModuleLoader{
 			GithubClient: gh,
 			RegexMappers: parseMappers(inputs),
 		},

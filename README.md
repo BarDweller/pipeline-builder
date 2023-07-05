@@ -77,7 +77,7 @@ $: octo --descriptor <DESCRIPTOR>
 ...or run directly using Go.
 
 ```shell
-$: go run github.com/paketo-buildpacks/pipeline-builder/cmd/octo --descriptor <DESCRIPTOR>
+$: go run github.com/BarDweller/pipeline-builder/cmd/octo --descriptor <DESCRIPTOR>
 ```
 
 **Make sure you run Octo from the `.github` folder where the descriptor file is**
@@ -313,7 +313,7 @@ actions:
   target: ghcr.io/paketo-buildpacks/actions/adoptium-dependency
 ```
 
-* [Example `create-action-*.yml`](https://github.com/paketo-buildpacks/pipeline-builder/blob/main/.github/workflows/pb-create-action-adoptium-dependency.yml)
+* [Example `create-action-*.yml`](https://github.com/BarDweller/pipeline-builder/blob/main/.github/workflows/pb-create-action-adoptium-dependency.yml)
 
 `actions` is a list of objects that describe a `source` directory within this repository's `actions/` directory, and a `target` Docker registry location.  If defined, each object will create a `create-action` workflow that is responsible for building and publishing new versions of the action.
 

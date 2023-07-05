@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions/event"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/release"
+	"github.com/BarDweller/pipeline-builder/octo/actions"
+	"github.com/BarDweller/pipeline-builder/octo/actions/event"
+	"github.com/BarDweller/pipeline-builder/octo/release"
 )
 
 func ContributeDraftRelease(descriptor Descriptor) ([]Contribution, error) {

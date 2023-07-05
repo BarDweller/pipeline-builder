@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions/event"
+	"github.com/BarDweller/pipeline-builder/octo/actions"
+	"github.com/BarDweller/pipeline-builder/octo/actions/event"
 )
 
 func ContributeUpdatePipeline(descriptor Descriptor) (Contribution, error) {

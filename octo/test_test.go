@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/BarDweller/pipeline-builder/octo"
+	"github.com/BarDweller/pipeline-builder/octo/actions"
 	. "github.com/onsi/gomega"
-	"github.com/paketo-buildpacks/pipeline-builder/octo"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions"
 	"github.com/sclevine/spec"
 	"gopkg.in/yaml.v3"
 )

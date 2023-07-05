@@ -17,13 +17,14 @@
 package octo
 
 import (
+	"fmt"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 
 	"github.com/rakyll/statik/fs"
 
-	_ "github.com/paketo-buildpacks/pipeline-builder/octo/statik"
+	_ "github.com/BarDweller/pipeline-builder/octo/statik"
 )
 
 func Exists(path string) (bool, error) {
@@ -61,12 +62,14 @@ var statik, _ = fs.New()
 func StatikString(path string) string {
 	in, err := statik.Open(path)
 	if err != nil {
+		fmt.Println("Failed to open path " + path + " from Statik")
 		panic(err)
 	}
 	defer in.Close()
 
 	b, err := ioutil.ReadAll(in)
 	if err != nil {
+		fmt.Println("Failed to read path " + path + " from Statik")
 		panic(err)
 	}
 

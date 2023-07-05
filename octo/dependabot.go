@@ -21,7 +21,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/paketo-buildpacks/pipeline-builder/octo/dependabot"
+	"github.com/BarDweller/pipeline-builder/octo/dependabot"
 )
 
 func ContributeDependabot(descriptor Descriptor) (*Contribution, error) {

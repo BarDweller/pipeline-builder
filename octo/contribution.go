@@ -25,11 +25,11 @@ import (
 	"github.com/iancoleman/strcase"
 	"gopkg.in/yaml.v3"
 
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions/event"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/dependabot"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/labels"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/release"
+	"github.com/BarDweller/pipeline-builder/octo/actions"
+	"github.com/BarDweller/pipeline-builder/octo/actions/event"
+	"github.com/BarDweller/pipeline-builder/octo/dependabot"
+	"github.com/BarDweller/pipeline-builder/octo/labels"
+	"github.com/BarDweller/pipeline-builder/octo/release"
 )
 
 type Contribution struct {

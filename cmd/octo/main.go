@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/paketo-buildpacks/pipeline-builder/octo"
+	"github.com/BarDweller/pipeline-builder/octo"
 )
 
 func main() {

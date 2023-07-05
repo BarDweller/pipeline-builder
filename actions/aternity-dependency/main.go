@@ -25,7 +25,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 
-	"github.com/paketo-buildpacks/pipeline-builder/actions"
+	"github.com/BarDweller/pipeline-builder/actions"
 )
 
 func main() {

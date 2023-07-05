@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions/event"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/labels"
+	"github.com/BarDweller/pipeline-builder/octo/actions"
+	"github.com/BarDweller/pipeline-builder/octo/actions/event"
+	"github.com/BarDweller/pipeline-builder/octo/labels"
 )
 
 func ContributeLabels(descriptor Descriptor) ([]Contribution, error) {

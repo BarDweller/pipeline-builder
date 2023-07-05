@@ -24,8 +24,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/BarDweller/pipeline-builder/actions"
 	"github.com/google/go-github/v43/github"
-	"github.com/paketo-buildpacks/pipeline-builder/actions"
 	"golang.org/x/oauth2"
 )
 

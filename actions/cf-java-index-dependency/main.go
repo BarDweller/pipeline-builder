@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/paketo-buildpacks/pipeline-builder/actions"
+	"github.com/BarDweller/pipeline-builder/actions"
 	"gopkg.in/yaml.v3"
 )
 

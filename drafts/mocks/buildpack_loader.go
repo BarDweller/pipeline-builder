@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	drafts "github.com/paketo-buildpacks/pipeline-builder/drafts"
+	drafts "github.com/BarDweller/pipeline-builder/drafts"
 	mock "github.com/stretchr/testify/mock"
 )
 

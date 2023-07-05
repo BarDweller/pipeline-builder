@@ -24,9 +24,9 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/BarDweller/pipeline-builder/actions"
+	"github.com/BarDweller/pipeline-builder/drafts"
 	"github.com/google/go-github/v43/github"
-	"github.com/paketo-buildpacks/pipeline-builder/actions"
-	"github.com/paketo-buildpacks/pipeline-builder/drafts"
 	"golang.org/x/oauth2"
 )
 
@@ -50,7 +50,7 @@ func main() {
 	}
 	gh := github.NewClient(c)
 
-	loader := drafts.GithubBuildpackLoader{
+	loader := drafts.GithubBuildModuleLoader{
 		GithubClient: gh,
 		RegexMappers: parseMappers(inputs),
 	}

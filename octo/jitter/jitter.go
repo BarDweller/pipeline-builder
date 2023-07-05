@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"strconv"
 
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions/event"
+	"github.com/BarDweller/pipeline-builder/octo/actions/event"
 )
 
 type Jitterer struct {

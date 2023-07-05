@@ -19,9 +19,9 @@ package jitter_test
 import (
 	"testing"
 
+	"github.com/BarDweller/pipeline-builder/octo/actions/event"
+	"github.com/BarDweller/pipeline-builder/octo/jitter"
 	. "github.com/onsi/gomega"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/actions/event"
-	"github.com/paketo-buildpacks/pipeline-builder/octo/jitter"
 	"github.com/sclevine/spec"
 )
 
